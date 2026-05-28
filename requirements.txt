@@ -1,0 +1,7 @@
+# Dependencies for local analysis and tests
+opencv-python
+numpy
+mcap
+mcap-ros2-support
+matplotlib
+pytest

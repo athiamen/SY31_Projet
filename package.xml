@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sy31_detection</name>
+  <version>1.0.0</version>
+  <description>Détection d'objets TurtleBot3 – SY31 Projet P26</description>
+  <maintainer email="etudiant@utc.fr">Équipe SY31</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>turtlebot3_msgs</depend>
+
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
